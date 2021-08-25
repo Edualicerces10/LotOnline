@@ -30,7 +30,7 @@ import {
               <Text color={'gray.500'}>Viagem de ida e volta</Text>
             </Stack>
   
-            <Stack direction={'row'} justify={'center'} spacing={6}>
+            <Stack direction={['column','column','row']} justify={'center'} spacing={6}>
               <Stack spacing={0} align={'center'}>
                 <Text>De</Text>
                 <Text fontSize={['large', 'sm', 'xl']} color={'gray.500'}>
@@ -83,7 +83,7 @@ import {
               <Text color={'gray.500'}>Viagem de ida e volta</Text>
             </Stack>
   
-            <Stack direction={'row'} justify={'center'} spacing={6}>
+            <Stack direction={['column','column','row']} justify={'center'} spacing={6}>
               <Stack spacing={0} align={'center'}>
                 <Text>De</Text>
                 <Text fontSize={['large', 'sm', 'xl']} color={'gray.500'}>
@@ -136,7 +136,7 @@ import {
               <Text color={'gray.500'}>Viagem de ida e volta</Text>
             </Stack>
   
-            <Stack direction={'row'} justify={'center'} spacing={6}>
+            <Stack direction={['column','column','row']} justify={'center'} spacing={6}>
               <Stack spacing={0} align={'center'}>
                 <Text>De</Text>
                 <Text fontSize={['large', 'sm', 'xl']} color={'gray.500'}>
@@ -189,7 +189,7 @@ import {
               <Text color={'gray.500'}>Viagem de ida e volta</Text>
             </Stack>
   
-            <Stack direction={'row'} justify={'center'} spacing={6}>
+            <Stack direction={['column','column','row']} justify={'center'} spacing={6}>
               <Stack spacing={0} align={'center'}>
                 <Text>De</Text>
                 <Text fontSize={['large', 'sm', 'xl']} color={'gray.500'}>
@@ -242,7 +242,7 @@ import {
               <Text color={'gray.500'}>Viagem de ida e volta</Text>
             </Stack>
   
-            <Stack direction={'row'} justify={'center'} spacing={6}>
+            <Stack direction={['column','column','row']} justify={'center'} spacing={6}>
               <Stack spacing={0} align={'center'}>
                 <Text>De</Text>
                 <Text fontSize={['large', 'sm', 'xl']} color={'gray.500'}>
