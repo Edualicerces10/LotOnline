@@ -2,7 +2,6 @@ import {
     Heading,
     Box,
     SimpleGrid,
-    Link,
     Text,
     Container,
     Stack,
@@ -39,7 +38,7 @@ import {
                 </Text>
               </Stack>
               <Stack spacing={0} align={'center'}>
-                <Text fontSize={'3xl'} color={'gray.500'}>
+                <Text fontSize={['large', 'sm', 'xl']} color={'gray.500'}>
                   ➡
                 </Text>
               </Stack>
