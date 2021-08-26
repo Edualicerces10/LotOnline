@@ -74,7 +74,7 @@ import {
           <h2>
             <AccordionButton>
               <Box flex="1" textAlign="left">
-                Section 1 title
+              Para você passageiro!
               </Box>
               {isExpanded ? (
                 <AddIcon fontSize="12px" />
@@ -84,7 +84,7 @@ import {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            osdojasd
+          Na Loteonline você pode agendar a sua viagem de forma simples e pratica, desta forma basta clicar em menu proximas viagens e verificar o destino disponível, depois disso entre em contato com a nossa equipe de atendimento. 
           </AccordionPanel>
         </>
       )}
@@ -96,7 +96,7 @@ import {
           <h2>
             <AccordionButton>
               <Box flex="1" textAlign="left">
-                Section 2 title
+              Para você motorista!
               </Box>
               {isExpanded ? (
                 <AddIcon fontSize="12px" />
@@ -106,10 +106,7 @@ import {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          Você que fazes viajes constantes no interior do país, com varios lugares disponível a no seu veículo a Loteonline te oferece a oportunidade de comecomeçares a facturar,basta ligares para a nossa equipe de atendimento.
           </AccordionPanel>
         </>
       )}
@@ -121,7 +118,7 @@ import {
           <h2>
             <AccordionButton >
               <Box flex="1" textAlign="left">
-                Section 3 title
+              para você que quer enviar uma carga!
               </Box>
               {isExpanded ? (
                 <AddIcon fontSize="12px" />
@@ -131,10 +128,7 @@ import {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          enviar uma mercadoria nunca foi tão facíl basta entrar em contato com a Loteonline e terás a tua questão resolvida!
           </AccordionPanel>
         </>
       )}
