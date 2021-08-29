@@ -99,7 +99,8 @@ export default function SmallCentered() {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-          <Text>© 2021 LotOnline. Todos os direitos reservados.</Text>
+          <Text>© 2021 LotOnline. Todos os direitos reservados. | Contacto: 923024122</Text>
+
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Facebook'} href={'https://br.pinterest.com/'}>
               <FaFacebook />
@@ -110,7 +111,6 @@ export default function SmallCentered() {
             <SocialButton label={'Whatsapp'} href={'https://br.pinterest.com/'}>
               <FaWhatsapp />
             </SocialButton>
-            <Text>Contacto: 923024122</Text>
           </Stack>
         </Container>
       </Box>
