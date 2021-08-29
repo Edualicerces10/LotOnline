@@ -56,7 +56,7 @@ import {
                   fontWeight="bold"
                   color="orange.700"
                 >
-                  LotOnline
+                  LotOnline 
                 </Text>
                 como uma empresa de lotação de taxi para viagens, funciona da seguinte maneira:
               </Text>
