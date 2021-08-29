@@ -110,6 +110,7 @@ export default function SmallCentered() {
             <SocialButton label={'Whatsapp'} href={'https://br.pinterest.com/'}>
               <FaWhatsapp />
             </SocialButton>
+            <Text>Contacto: 923024122</Text>
           </Stack>
         </Container>
       </Box>

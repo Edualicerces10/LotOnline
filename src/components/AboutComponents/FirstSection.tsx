@@ -118,7 +118,7 @@ import {
           <h2>
             <AccordionButton >
               <Box flex="1" textAlign="left">
-              para você que quer enviar uma carga!
+              Para você que quer enviar uma carga!
               </Box>
               {isExpanded ? (
                 <AddIcon fontSize="12px" />
@@ -128,7 +128,7 @@ import {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} >
-          enviar uma mercadoria nunca foi tão facíl basta entrar em contato com a Loteonline e terás a tua questão resolvida!
+          Enviar uma mercadoria nunca foi tão facíl basta entrar em contato com a LoteOnline e terás a tua questão resolvida!
           </AccordionPanel>
         </>
       )}
