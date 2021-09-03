@@ -7,7 +7,7 @@ export default function Destinos(){
   return (
     <>
       <Head>
-        <title>LotOnline | Próximas viagens</title>
+        <title>LotOnline | Próximas Viagens</title>
       </Head>
       <Container maxW="container.xl">
         <TextDestino />

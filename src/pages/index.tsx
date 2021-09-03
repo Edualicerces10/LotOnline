@@ -6,7 +6,7 @@ export default function Home(){
   return (
     <>
       <Head>
-        <title>LotOnline | Inicio</title>
+        <title>LotOnline | Início</title>
       </Head>
       <Hero />
       <Footer />
