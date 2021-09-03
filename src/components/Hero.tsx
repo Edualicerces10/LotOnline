@@ -5,7 +5,6 @@ import {
     Flex,
     Container,
     Heading,
-    Img,
     Stack,
     Text,
     useBreakpointValue,

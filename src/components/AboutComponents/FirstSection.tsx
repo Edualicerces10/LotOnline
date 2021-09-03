@@ -84,7 +84,7 @@ import {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-          Na Loteonline você pode agendar a sua viagem de forma simples e pratica, desta forma basta clicar em menu proximas viagens e verificar o destino disponível, depois disso entre em contato com a nossa equipe de atendimento. 
+          Na LotOnline você pode agendar a sua viagem de forma simples e pratica, desta forma basta clicar em menu proximas viagens e verificar o destino disponível, depois disso entre em contato com a nossa equipe de atendimento. 
           </AccordionPanel>
         </>
       )}
@@ -106,7 +106,7 @@ import {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-          Você que fazes viajes constantes no interior do país, com varios lugares disponível a no seu veículo a Loteonline te oferece a oportunidade de comecomeçares a facturar,basta ligares para a nossa equipe de atendimento.
+          Você que fazes viajes constantes no interior do país, com varios lugares disponível a no seu veículo a LotOnline te oferece a oportunidade de comecomeçares a facturar,basta ligares para a nossa equipe de atendimento.
           </AccordionPanel>
         </>
       )}
@@ -128,7 +128,7 @@ import {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} >
-          Enviar uma mercadoria nunca foi tão facíl basta entrar em contato com a LoteOnline e terás a tua questão resolvida!
+          Enviar uma mercadoria nunca foi tão facíl basta entrar em contato com a LotOnline e terás a tua questão resolvida!
           </AccordionPanel>
         </>
       )}

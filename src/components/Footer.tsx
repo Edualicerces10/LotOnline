@@ -102,13 +102,13 @@ export default function SmallCentered() {
           <Text>© 2021 LotOnline. Todos os direitos reservados. | Contacto: 923024122</Text>
 
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Facebook'} href={'https://br.pinterest.com/'}>
+            <SocialButton label={'Facebook'} href={'#'}>
               <FaFacebook />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'https://br.pinterest.com/'}>
+            <SocialButton label={'Instagram'} href={'#'}>
               <FaInstagram />
             </SocialButton>
-            <SocialButton label={'Whatsapp'} href={'https://br.pinterest.com/'}>
+            <SocialButton label={'Whatsapp'} href={'#'}>
               <FaWhatsapp />
             </SocialButton>
           </Stack>
