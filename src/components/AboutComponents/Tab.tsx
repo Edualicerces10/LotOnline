@@ -13,9 +13,9 @@ export default function TabAbout(){
         
         <Tabs mt="5" variant="enclosed" boxShadow="none">
             <TabList border-color="orange.700" borderLeftColor="orange.700">
-                <Tab  _selected={{ color: "white", bg: "orange.700" }}>Empresa</Tab>
-                <Tab _selected={{ color: "white", bg: "orange.700" }}>Motoristas</Tab>
-                <Tab _selected={{ color: "white", bg: "orange.700" }}>Passageiros</Tab>
+                <Tab  _selected={{ color: "white", bg: "orange.700" }} _focus={{boxShadow: "none"}}>Empresa</Tab>
+                <Tab _selected={{ color: "white", bg: "orange.700" }} _focus={{boxShadow: "none"}}>Motoristas</Tab>
+                <Tab _selected={{ color: "white", bg: "orange.700" }} _focus={{boxShadow: "none"}}>Passageiros</Tab>
             </TabList>
 
             <TabPanels>
