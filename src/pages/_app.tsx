@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ChakraProvider theme={theme}>
       <Navbar />
       <NextNprogress
-        color="#f95702"
+        color="#FF7900"
         startPosition={0.9}
         stopDelayMs={200}
         height={3}
