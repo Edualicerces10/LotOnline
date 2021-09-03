@@ -138,8 +138,8 @@ import {
             </Stack>
             <Flex maxWidth='500px'>
             <Image
-              width={9000}
-              height={300}
+              width='900px'
+              height='300px'
               layout="intrinsic"
               src={ImageSection}
               alt="Imagem principal" 
