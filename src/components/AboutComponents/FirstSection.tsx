@@ -136,7 +136,7 @@ import {
   </Accordion>
               </Stack>
             </Stack>
-            <Flex>
+            <Flex maxWidth='500px'>
             <Image
               width={1000}
               height={600}
