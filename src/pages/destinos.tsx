@@ -1,19 +1,22 @@
-import { Container } from '@chakra-ui/react'
-import Card from '../components/ContentTicket/Card'
-import Head from 'next/head'
-import Footer  from '../components/Footer'
-import TextDestino from '../components/ContentTicket/Text'
-export default function Destinos(){
-  return (
-    <>
-      <Head>
-        <title>LotOnline | Próximas Viagens</title>
-      </Head>
-      <Container maxW="container.xl">
-        <TextDestino />
-        <Card />
-        <Footer />
-      </Container>
-    </>
-  )
+import DestinosTemplate from "../templates/Destinos"
+import { GET_DESTINOS } from "../graphql/queries"
+import client from "../graphql/client"
+
+import { DestinosProps } from "../components/CardDestino/Card"
+import { GetDestinosQuery } from "../graphql/generated/graphql"
+
+export default function Destinos({ destinos }: DestinosProps){
+  return <DestinosTemplate destinos={destinos} />
+}
+
+export const getStaticProps = async () => {
+  const { destinos } = await client.request<GetDestinosQuery>(GET_DESTINOS)
+
+  console.log(destinos)
+  
+  return {
+    props: {
+      destinos
+    }
+  }
 }
