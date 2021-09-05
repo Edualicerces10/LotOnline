@@ -1,7 +1,7 @@
 import { GraphQLClient } from 'graphql-request'
 
-const endpoint = process.env.GRAPHQL_HOST || ''
-// const endpoint = 'https://api-eu-central-1.graphcms.com/v2/ckr51o79n066t01yz1t5q111n/master'
+// const endpoint = process.env.GRAPHQL_HOST || ''
+const endpoint = 'https://api-eu-central-1.graphcms.com/v2/ckr51o79n066t01yz1t5q111n/master'
 
 const client = new GraphQLClient(endpoint, {
   headers: {
