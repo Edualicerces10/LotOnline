@@ -13,6 +13,9 @@ import {
   Text
 } from '@chakra-ui/react';
 
+import Logo from '../../../public/img/lotonlinelogo.png'
+import Image from 'next/image'
+
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
 const Links = ['Home', 'Sobre Nós', 'Próximas Viagens'];
@@ -48,7 +51,14 @@ export default function Navbar() {
       >
         <Container as={Stack} maxW={'6xl'} py={1}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-        <Box mr="auto">Logo</Box>
+        <Box mr="auto">
+        <Image
+          src={Logo}
+          height={'60'}
+          width={'100'}
+          alt="carro laranja com letras ao lado escritas, LotOnline"
+        />
+        </Box>
           <IconButton
             size={'md'}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
