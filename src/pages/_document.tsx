@@ -7,7 +7,9 @@ export default class MyDocument extends Document {
                 <Head>
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-                    <link rel="shortcut icon" href="/img/icon-512.png" />
+                    
+                    {/* <link rel="icon" href="%PUBLIC_URL%/edu.financelogo.png" /> */}
+                    <link rel="shortcut icon" href="/img/logolotonline.png" />
                     <meta name="theme-color" content="#FF7900" />
                     <meta
                     name="description"
