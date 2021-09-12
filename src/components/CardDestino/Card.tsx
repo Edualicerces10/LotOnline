@@ -89,7 +89,7 @@ export const Card = ({ destinos }: DestinosProps) => (
                     <Button
                       w={"full"}
                       as="a"
-                      href="https://api.whatsapp.com/send?phone=244931611370&text=Olá%20LotOnline%20Angola"
+                      href="https://api.whatsapp.com/send?phone=244923024122&text=Olá%20LotOnline%20Angola"
                       target="_blank"
                       mt={8}
                       bg={"gray.900"}
