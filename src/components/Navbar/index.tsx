@@ -52,12 +52,15 @@ export default function Navbar() {
         <Container as={Stack} maxW={'6xl'} py={1}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <Box mr="auto">
+        <Link href="/">
+
         <Image
           src={Logo}
           height={'60'}
           width={'100'}
           alt="carro laranja com letras ao lado escritas, LotOnline"
-        />
+          />
+        </Link>
         </Box>
           <IconButton
             size={'md'}
